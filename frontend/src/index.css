@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*sets the background color of the header div to #404040*/
+/*llllll*/
+header {
+  background-color: #404040;
+  padding: 1rem;
+}
+
+/*sets the link color and style to #ffffff and font-weight: bold respectively*/
+header a {
+  color: #ffffff;
+  font-weight: bold;
+  /*Removes any underline frome the link in the header*/
+  text-decoration: none; 
+}
