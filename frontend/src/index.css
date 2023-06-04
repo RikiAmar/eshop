@@ -8,7 +8,6 @@ body {
 }
 
 /*sets the background color of the header div to #404040*/
-/*llllll*/
 header {
   background-color: #404040;
   padding: 1rem;
@@ -20,4 +19,30 @@ header a {
   font-weight: bold;
   /*Removes any underline frome the link in the header*/
   text-decoration: none; 
+}
+
+.products {
+  display: flex;/*all divs next to each other*/
+  flex-wrap: wrap;
+  justify-content: center;/*put all items in center*/
+}
+
+.product {
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+
+.product img {
+  width: 100%;
+  height: 65%;/**/
+  max-width: 250px;
+  max-height: 250px;/**/
+}
+
+main {
+  padding: 1rem;
+}
+
+.product-desc {
+  padding: 1rem;
 }
