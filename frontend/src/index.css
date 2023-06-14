@@ -23,7 +23,7 @@ header a {
 
 .products {
   display: flex;/*all divs next to each other*/
-  flex-wrap: wrap;
+  flex-wrap: wrap;/*defines how flex items wrap within a flex container when there is not enough space to fit them on one line.*/
   justify-content: center;/*put all items in center*/
 }
 
