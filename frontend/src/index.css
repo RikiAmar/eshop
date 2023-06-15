@@ -7,20 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/*sets the background color of the header div to #404040*/
-header {
-  background-color: #404040;
-  padding: 1rem;
-}
-
-/*sets the link color and style to #ffffff and font-weight: bold respectively*/
-header a {
-  color: #ffffff;
-  font-weight: bold;
-  /*Removes any underline frome the link in the header*/
-  text-decoration: none; 
-}
-
 .products {
   display: flex;/*all divs next to each other*/
   flex-wrap: wrap;/*defines how flex items wrap within a flex container when there is not enough space to fit them on one line.*/
@@ -32,17 +18,15 @@ header a {
   margin: 1rem;
 }
 
-.product img {
-  width: 100%;
-  height: 65%;/**/
-  max-width: 250px;
-  max-height: 250px;/**/
+.side-allpage {
+  min-height: 100%vh;
 }
 
 main {
-  padding: 1rem;
+   flex: 1;
 }
 
 .product-desc {
   padding: 1rem;
 }
+
