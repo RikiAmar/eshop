@@ -5,6 +5,9 @@ import axios from 'axios';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Product from '../components/Product';
+import { Helmet } from 'react-helmet-async';
+import LoadingComponent from '../components/LoadingComponent';
+import MessageBox from '../components/MessageBox';
 
 
 const reducer = (state, action) => {
@@ -43,12 +46,15 @@ function HomePage() {
 
   return (
     <div>
+      <Helmet>
+        <title>EShop</title>
+      </Helmet>
       <h1>Products</h1>
       <div className="products">
         {loading ? (
-          <p>Loading...</p>
+         <LoadingComponent/>
         ) : error ? (
-          <p>{error}</p>
+          <MessageBox variant='danger'>{error}</MessageBox>
         ) : (
           <Row>
             {products.map((p) => (

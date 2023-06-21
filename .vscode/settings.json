@@ -1,0 +1,13 @@
+{
+    "editor.wordWrap": "on",
+    "outline.problems.colors": true,
+    "outline.problems.enabled": true,
+    "markdown.validate.enabled": true,
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    // "debug.javascript.breakOnConditionalError": true,
+    // "workbench.colorCustomizations": {
+    //     "editorError.foreground": "#ed0c0cd9",
+    //     "editorWarning.foreground": "#ed0c0cd9",
+    //     "editorInfo.foreground": "#ed0c0cd9"
+    //   }
+}

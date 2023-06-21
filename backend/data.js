@@ -1,18 +1,21 @@
 const data = {
     products: [
       {
+        _id:1,
         name: 'productA-name',
-        category: 'Pharma',
-        description: 'asda',
-        price: 100,
+        category: 'Pharma', 
+        description: 'asda', 
+        price: 100, 
         token: 'productA-token',
         brand: 'Teva',
-        countInStock: 6,
+        countInStock: 0,
         rating: 2.5,
         numReviews: 100,
         image: '/images/p1.jpg',
       },
       {
+        _id:2,
+
         name: 'productB-name',
         category: 'Pharma',
         description: 'hhhh',
@@ -25,6 +28,7 @@ const data = {
         image: '/images/p2.jpg',
       },
       {
+        _id:3,
         name: 'productC-name',
         category: 'Pharma',
         description: 'gg',
@@ -37,6 +41,7 @@ const data = {
         image: '/images/p3.jpg',
       },
       {
+        _id:4,
         name: 'productD-name',
         category: 'Pharma',
         description: 'sss',
@@ -53,6 +58,7 @@ const data = {
   
       
       {
+        _id:5,
         name: 'productW-name',
         category: 'Pharma',
         description: 'sad',
@@ -65,6 +71,7 @@ const data = {
         image: '/images/p1.jpg',
       },
       {
+        _id:6,
         name: 'productO-name',
         category: 'Pharma',
         description: 'asdasd',
@@ -77,6 +84,7 @@ const data = {
         image: '/images/p2.jpg',
       },
       {
+        _id:7,
         name: 'productF-name',
         category: 'Pharma',
         description: '...',
@@ -89,6 +97,7 @@ const data = {
         image: '/images/p3.jpg',
       },
       {
+        _id:8,
         name: 'productL-name',
         category: 'Pharma',
         description: '...',
